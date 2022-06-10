@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+    margin: 10vh;
+    color: cyan;
+}
+
+#corpo {
+    position: absolute;
+}
+
+#titolo {
+    color: gray;
+    margin: 1rem;
+}
+.calcolatrice{
+    background-color: black;
+    border-radius: 1rem;
+    
+    padding: 2rem;
+    width: 25%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+
+.calcolatrice #text{
+    border: 2px solid green;
+    display: block;
+    height: 10vh;
+}
+
+.calcolatrice .tt{
+    grid-column: 1/5;
+}
+
+.calcolatrice input{
+    
+    border:none;
+    background-color: green;
+    color:cyan;
+    box-shadow: 4px 4px 1px darkgreen;
+    font-weight: bold;
+    font-size: 3rem;
+    border-radius: 2px;
+}
+.calcolatrice input:hover {
+    background-color: darkgreen;
+}
